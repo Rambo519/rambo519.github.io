@@ -1,0 +1,60 @@
+:root {
+  /* Page (black shell) */
+  --page-bg: #030303;
+  --page-text: #e8e4ef;
+  --page-muted: #9d94ad;
+  --page-border: rgba(255, 255, 255, 0.12);
+
+  /* Surfaces inside cards / tables — unchanged light panels */
+  --text: #5c5668;
+  --text-h: #1a1625;
+  --border: #dcd7e0;
+  --card-bg: #fff;
+  --input-bg: #fff;
+  --table-head: #efeaf4;
+  --accent: #7c3aed;
+  --accent-bg: rgba(124, 58, 237, 0.12);
+  --accent-border: rgba(124, 58, 237, 0.35);
+  --btn-primary: #6d28d9;
+  --btn-secondary-bg: #fff;
+  --btn-secondary-hover: #f3eff8;
+  --btn-danger: #b91c1c;
+  --btn-success: #15803d;
+  --warn-text: #92400e;
+  --warn-bg: #fffbeb;
+  --warn-border: #fcd34d;
+  --win-row: rgba(34, 197, 94, 0.12);
+  --shadow-sm:
+    0 1px 2px rgba(15, 23, 42, 0.06), 0 1px 3px rgba(15, 23, 42, 0.08);
+
+  --sans: 'DM Sans', system-ui, 'Segoe UI', Roboto, sans-serif;
+  --display: 'Faster One', system-ui, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.45;
+  color: var(--page-text);
+  background: var(--page-bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--page-bg);
+  color: var(--page-text);
+}
+
+#root {
+  min-height: 100svh;
+  background: var(--page-bg);
+}
